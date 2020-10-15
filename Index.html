@@ -1,0 +1,89 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Parque Cementerio de Zipaquirá</title>
+	<link rel="icon" type="image/png" href="./Imagenes/Flor Logo16.png"/>
+<link href="/CSS/styles.css" rel="stylesheet"/>
+</head>
+	<body onmousemove="funcion(event)">
+		<script>
+				function funcion(e){
+				var x = e.clientX;
+				var y = e.clientY;
+				var coor = "("+ x + "," + y + ")";
+				document.getElementById("demo").innerHTML = coor;
+				}
+			</script>
+		<div class="fondo">
+		</div>
+		<header>
+			<div class="Fondo_Cabecera">
+			</div>
+		</header>
+		<!--<p id="demo"></p>-->
+<!--<p id="demo"></p>-->
+	 <!--<div class="espacio">
+		<a>hola</a></div>-->
+		<nav class="nav-menu">      
+			<!--<div>
+						<a>Nosotros</a>  
+			</div>
+			<div>
+						<a>Nuestro Portafolio</a>
+			</div>
+			<div>
+						<a>Expertos en</a>
+			</div>
+			<div>
+						<a>Eventos y Promociones</a>
+			</div>
+			<div>
+						<a>Pagos en Línea</a>
+			</div>
+			<div>
+						<a id= "demo">Contáctenos</a>
+			</div>
+			<div class="buscar">
+				
+			</div>-->
+			<ul>
+				<li>
+					<a>Nosotros</a>
+					<!--<ul>
+						<li>
+							<a>¿Quienes Somos?</a>
+						</li>
+					</ul>-->
+				</li>
+				<li>
+					<a>Nuestro Portafolio</a>
+				</li>
+				<li>
+					<a>Expertos en</a>
+				</li>
+				<li>
+					<a>Eventos y Promociones</a>
+				</li>
+				<li>
+					<a>Pagos en Línea</a>
+				</li>
+				<li>
+					<a>Contáctenos</a>
+				</li>
+				<li>
+					<form action="./procesar.php" method="post">
+					<input type="text" placeholder="Nombre.." name="buscar"/>
+						<input type="password" name="pass"/>
+						<input type="submit" value="enviar"/>
+					</form>
+				</li>
+			</ul>
+		</nav>
+		<section>	
+		</section>	
+		
+		<footer>
+		</footer>
+	</body>
+</html>
